@@ -3,7 +3,7 @@
 * [首页](/)
 
 * 学习
-    * ref/
+    * ref
         * [mdsyntax.md](学习/ref/mdsyntax.md)
         * [readme.md  ](学习/ref/readme.md  )
         * [test.md    ](学习/ref/test.md    )

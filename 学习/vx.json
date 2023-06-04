@@ -1,0 +1,29 @@
+{
+    "created_time": "2023-05-26T08:04:26Z",
+    "files": [
+    ],
+    "folders": [
+        {
+            "name": "深入浅出SSD阅读"
+        },
+        {
+            "name": "数字IC设计"
+        },
+        {
+            "name": "软件技巧"
+        },
+        {
+            "name": "讲座"
+        },
+        {
+            "name": "密码算法"
+        },
+        {
+            "name": "ref"
+        }
+    ],
+    "id": "6",
+    "modified_time": "2023-05-26T08:04:26Z",
+    "signature": "120883539634186",
+    "version": 3
+}

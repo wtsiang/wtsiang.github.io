@@ -3,15 +3,11 @@
 * [首页](/)
 
 * 学习
-    * ref
-        * [mdsyntax.md](学习/ref/mdsyntax.md)
-        * [readme.md  ](学习/ref/readme.md  )
-        * [test.md    ](学习/ref/test.md    )
-        * [test1.md   ](学习/ref/test1.md   )
-        * [test2.md   ](学习/ref/test2.md   )
     * 密码算法
         * [旁路攻击.md](学习/密码算法/旁路攻击.md)
         * [物理攻击.md](学习/密码算法/物理攻击.md)
+        * [模逆.md](学习/密码算法/模逆.md)
+        * [蒙哥马利模乘.md](学习/密码算法/蒙哥马利模乘.md)
     * 数字IC设计
         * [数字IC设计技能树.md                             ](学习/数字IC设计/数字IC设计技能树.md)
         * [数字IC设计流程.md                               ](学习/数字IC设计/数字IC设计流程.md)
@@ -45,9 +41,10 @@
         * [Formality.md                               ](学习/软件技巧/Formality.md)
         * [spyglass/cdc检查.md                        ](学习/软件技巧/spyglass/cdc检查.md)
         * [Tmux.md                                    ](学习/软件技巧/Tmux.md)
-        * [Vcs+Verdi仿真教程/1.1_VCS+Verdi仿真教程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.1_VCS+Verdi仿真教程.md)
-        * [Vcs+Verdi仿真教程/1.2_VCS+Verdi环境搭建.md](学习/软件技巧/Vcs+Verdi仿真教程/1.2_VCS+Verdi环境搭建.md)
-        * [Vcs+Verdi仿真教程/1.3_VCS+Verdi仿真流程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.3_VCS+Verdi仿真流程.md)
+        * Vcs+Verdi仿真教程
+            * [1.1_VCS+Verdi仿真教程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.1_VCS+Verdi仿真教程.md)
+            * [1.2_VCS+Verdi环境搭建.md](学习/软件技巧/Vcs+Verdi仿真教程/1.2_VCS+Verdi环境搭建.md)
+            * [1.3_VCS+Verdi仿真流程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.3_VCS+Verdi仿真流程.md)
 * 工作
     * Power
         * [Power_flow.md](工作/Power)

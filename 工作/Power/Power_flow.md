@@ -5,10 +5,10 @@
 
 
 ## STAR1500 PT endec session 目录
-![](vx_images/546260816236943.png =1000x)
+![](vx_images/546260816236943.png)
 
 ## report power 脚本
-![](vx_images/106690916257109.png =798x)
+![](vx_images/106690916257109.png)
 
 ## endec saif反标率
 

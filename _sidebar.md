@@ -22,6 +22,7 @@
             * [PTPX功耗分析_Average_Power_Analysis.md ](学习/数字IC设计/数字后端/PTPX功耗分析_Average_Power_Analysis.md)
             * [PTPX功耗分析_nWave查看功耗波形图.md    ](学习/数字IC设计/数字后端/PTPX功耗分析_nWave查看功耗波形图.md)
             * [PTPX功耗分析_Peak_Power_Analysis.md    ](学习/数字IC设计/数字后端/PTPX功耗分析_Peak_Power_Analysis.md)
+            * [PTPX功耗分析-脚本.md](学习/数字IC设计/数字后端/PTPX功耗分析-脚本.md)
             * [工艺角.md                              ](学习/数字IC设计/数字后端/工艺角.md)
     * 深入浅出SSD阅读
         * [第1章：综述.md             ](学习/深入浅出SSD阅读/第1章：综述.md)
@@ -33,6 +34,9 @@
         * [第7章：SSD测试.md          ](学习/深入浅出SSD阅读/第7章：SSD测试.md)
         * [第8章：电源管理.md         ](学习/深入浅出SSD阅读/第8章：电源管理.md)
         * [第9章：ECC原理.md          ](学习/深入浅出SSD阅读/第9章：ECC原理.md)
+
+    * 脚本工具        
+        * [Tcl.md](学习/脚本工具/Tcl.md)
     * 讲座
         * [AES案例设计分析-曲英杰.md](学习/讲座/AES案例设计分析-曲英杰.md)
     * 软件技巧
@@ -47,7 +51,6 @@
             * [1.3_VCS+Verdi仿真流程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.3_VCS+Verdi仿真流程.md)
 * 工作
     * Power
-        * [Power_flow.md](工作/Power)
         * [Power_flow.md](工作/Power/Power_flow.md)
 * [待处理事项.md](待处理事项.md)
 

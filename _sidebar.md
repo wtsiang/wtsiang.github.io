@@ -1,6 +1,6 @@
 <!-- _sidebar.md -->
 
-* [首页](/)
+* [首页](README.md)
 
 * 学习
     * 密码算法
@@ -51,7 +51,3 @@
             * [1.1_VCS+Verdi仿真教程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.1_VCS+Verdi仿真教程.md)
             * [1.2_VCS+Verdi环境搭建.md](学习/软件技巧/Vcs+Verdi仿真教程/1.2_VCS+Verdi环境搭建.md)
             * [1.3_VCS+Verdi仿真流程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.3_VCS+Verdi仿真流程.md)
-* 工作
-    * Power
-        * [Power_flow.md](工作/Power/Power_flow.md)
-* [待处理事项.md](待处理事项.md)

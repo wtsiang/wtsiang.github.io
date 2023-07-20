@@ -3,6 +3,8 @@
 * [首页](README.md)
 
 * 学习
+    * Spinal 
+        *  [SpinalHDL开发环境搭建.md](学习/Spinal/SpinalHDL开发环境搭建.md)
     * 密码算法
         * [CRC校验.md](学习/密码算法/CRC校验.md)
         * [旁路攻击.md](学习/密码算法/旁路攻击.md)

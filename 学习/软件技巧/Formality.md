@@ -114,3 +114,21 @@ verify完成之后
 之后在命令行中输入start\_gui可以打开图形界面。  
 注意：  
 1、综合时set\_svf放在综合脚本文件的最前面，在最后面加set\_svf -off。
+
+
+# 如何解决Fail
+## undriven nets/pins
+在fm.tcl中一般会先`set synopsys_auto_setup true`，但是根据上面的描述如果`set synopsys_auto_setup true`之后，Formality会将`verification_set_undriven_signals` 变量设置为SYNTHESIS。因此需要用如下cmd对undriven的选项单独再设置一下，这样对设计的验证更加充分。
+代码如下：
+``` tcl
+set_app_var synopsys_auto_setup true
+set_app_var verification_set_undriven_signals BINARY:X
+```
+如果设计中存在undriven nets/pins导致fail，首先确认设计中存在的这些undriven points是否是期望的， 如果设计中存在的这些undriven points是期望的，那么将变量`verification_set_undriven_signals`设置为0即可。
+代码如下：
+``` tcl
+set_app_var synopsys_auto_setup true
+set_app_var verification_set_undriven_signals 0
+```
+> **总结**
+    对于design中出现的undriven signals，Formality默认设置是failing points。因此首先确认设计中存在的这些undriven points是否是期望的，如果是期望的，在做formality时需要对`verification_set_undriven_signals`变量进行设置，这样才会succeed。

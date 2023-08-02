@@ -1,0 +1,77 @@
+{
+    "created_time": "2023-08-02T12:18:49Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:29:37Z",
+            "id": "115",
+            "modified_time": "2023-08-02T12:29:37Z",
+            "name": "忆芯科技录用通知_DD_吴万强.pdf",
+            "signature": "72273105669169",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:30:52Z",
+            "id": "130",
+            "modified_time": "2023-08-02T12:30:52Z",
+            "name": "On-boarding Basic Information.xlsx",
+            "signature": "84689856121980",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:30:56Z",
+            "id": "131",
+            "modified_time": "2023-08-02T12:30:56Z",
+            "name": "吴万强_银行卡信息_个人简介.docx",
+            "signature": "85450065333376",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:30:56Z",
+            "id": "132",
+            "modified_time": "2023-08-02T12:30:56Z",
+            "name": "忆芯科技录用通知_DD_吴万强.docx",
+            "signature": "23396377840768",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:30:56Z",
+            "id": "133",
+            "modified_time": "2023-08-02T12:30:56Z",
+            "name": "签约单位基本信息.png",
+            "signature": "93314150452352",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:30:56Z",
+            "id": "134",
+            "modified_time": "2023-08-02T12:30:56Z",
+            "name": "自我介绍-生活照.docx",
+            "signature": "63442652908672",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "入职文件"
+        },
+        {
+            "name": "忆芯三方"
+        }
+    ],
+    "id": "108",
+    "modified_time": "2023-08-02T12:18:49Z",
+    "signature": "115802599213481",
+    "version": 3
+}

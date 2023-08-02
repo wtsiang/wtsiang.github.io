@@ -4,7 +4,16 @@
     ],
     "folders": [
         {
-            "name": "Power"
+            "name": "offer"
+        },
+        {
+            "name": "证书"
+        },
+        {
+            "name": "简历"
+        },
+        {
+            "name": "笔面"
         }
     ],
     "id": "51",

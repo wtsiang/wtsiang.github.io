@@ -1,0 +1,71 @@
+{
+    "created_time": "2023-08-02T12:32:03Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:32:06Z",
+            "id": "204",
+            "modified_time": "2023-08-02T12:32:06Z",
+            "name": "吴万强-本科成绩单.pdf",
+            "signature": "19926044265670",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:32:06Z",
+            "id": "205",
+            "modified_time": "2023-08-02T12:32:06Z",
+            "name": "吴万强-本科成绩单_1.png",
+            "signature": "127381831044294",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:32:06Z",
+            "id": "206",
+            "modified_time": "2023-08-02T12:32:06Z",
+            "name": "吴万强-硕士成绩单-85-3.37-4.doc",
+            "signature": "97514628467910",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:32:06Z",
+            "id": "207",
+            "modified_time": "2023-08-02T12:32:06Z",
+            "name": "吴万强-硕士成绩单-85-3.37-4.pdf",
+            "signature": "42650716228806",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:32:06Z",
+            "id": "208",
+            "modified_time": "2023-08-02T12:32:06Z",
+            "name": "四级成绩单.jpg",
+            "signature": "60032448875718",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:32:06Z",
+            "id": "209",
+            "modified_time": "2023-08-02T12:32:06Z",
+            "name": "四级成绩单.pdf",
+            "signature": "9905885564102",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+    ],
+    "id": "199",
+    "modified_time": "2023-08-02T12:32:03Z",
+    "signature": "8943812889795",
+    "version": 3
+}

@@ -8,7 +8,7 @@
     * 密码算法
         * [CRC校验.md](学习/密码算法/CRC校验.md)
         * [SHA3.md](学习/密码算法/SHA3.md)
-        * [侧信道攻防.md](学习/密码算法/侧信道攻防.md)
+        * [侧信道攻防知多少.md](学习/密码算法/侧信道攻防知多少.md)
         * [旁路攻击.md](学习/密码算法/旁路攻击.md)
         * [物理攻击.md](学习/密码算法/物理攻击.md)
         * [模逆.md](学习/密码算法/模逆.md)
@@ -26,6 +26,7 @@
             * [数字IC（SoC）低功耗设计方法总结.md     ](学习/数字IC设计/数字前端/数字IC（SoC）低功耗设计方法总结.md)
         * 数字后端
             * [DFT介绍.md                             ](学习/数字IC设计/数字后端/DFT介绍.md)
+            * [IR_Drop.md                             ](学习/数字IC设计/数字后端/IR_Drop.md)
             * [PTPX功耗分析_Average_Power_Analysis.md ](学习/数字IC设计/数字后端/PTPX功耗分析_Average_Power_Analysis.md)
             * [PTPX功耗分析_nWave查看功耗波形图.md    ](学习/数字IC设计/数字后端/PTPX功耗分析_nWave查看功耗波形图.md)
             * [PTPX功耗分析_Peak_Power_Analysis.md    ](学习/数字IC设计/数字后端/PTPX功耗分析_Peak_Power_Analysis.md)

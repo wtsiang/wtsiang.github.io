@@ -11,7 +11,7 @@
 
 **事物层**
 
-**产生四种\*\*\*\*TLP（Transaction Layer Packet）**
+**产生四种TLP（Transaction Layer Packet）**
 
 *   Memory
 *   IO
@@ -48,14 +48,14 @@
 
 源于发送端数据链路层，终于接收端的数据链路层；DLLP的传输仅限于相邻的两个端口。
 
-**DLLP有四种类型：**
+**DLLP有四种类型**：
 
 *   用以确保TLP传输完整行的DLLP：ACK/NAK
 *   用以流控的DLLP
 *   用以电源管理的DLLP
 *   厂家自定义DLLP
 
-\*\*DLLP包格式：\*\*DLLP大小为6Byte，物理层会为其加上头尾变为8Byte
+**DLLP包格式**：DLLP大小为6Byte，物理层会为其加上头尾变为8Byte
 
 
 
@@ -78,9 +78,9 @@
 | **Non-Fundamental Reset** | **Hot Reset**         |                             |
 | **Function Level Reset**  |                       |                             |
 
-\*\*Fundamental Reset：\*\*由硬件控制，会重启整个设备。
+**Fundamental Reset**：由硬件控制，会重启整个设备。
 
-\*\*Function Level Reset：\*\*会将对应Function内部状态、寄存器重置。
+**Function Level Reset**：会将对应Function内部状态、寄存器重置。
 
 ***
 

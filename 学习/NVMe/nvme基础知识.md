@@ -458,39 +458,39 @@ Controller 关机
 
 分析该包，Host需要从起始LBA 0x20E0448(SLBA)上读取128个DWORD (512字节)的数据，读到哪里去呢？PRP1给出内存地址是0x14ACCB000。这个命令放在编号为3的SQ里 (SQID = 3)，CQ编号也是3 (CQID = 3)
 
-1. Host通过写SQ的Tail DB，通知Controller来取命令：
+2. Host通过写SQ的Tail DB，通知Controller来取命令：
 
 ![](vx_images/clip_image042.jpg)
 
 上图中，上层是NVMe层，下层是PCIe传输层的TLP。Host想往SQ Tail DB中写入的值是5。PCIe是通过一个Memory Write TLP来实现Host写CQ的Tail DB的。该Tail DB寄存器映射在Host的内存地址为F7C11018，由于NVMe 的寄存器映射到了Host内存中，所以可以根据这个地址写入寄存器值。
 
-1. SSD收到通知，去Host端的SQ中取指。
+3. SSD收到通知，去Host端的SQ中取指。
 
 ![](vx_images/clip_image044.jpg)
 
 PCIe是通过发一个Memory Read TLP到Host的SQ中取指的。可以看到，PCIe需要往Host内存中读取16个DWORD的数据（一个NVMe指令大小），
 
-1. SSD执行读命令，把数据从闪存中读到缓存中，然后把数据传给Host：
+4. SSD执行读命令，把数据从闪存中读到缓存中，然后把数据传给Host：
 
 ![](vx_images/clip_image046.jpg)
 
 SSD是通过Memory write TLP 把Host命令所需的128个DWORD数据写入到Host命令所要求的内存中去。SSD每次写入32个DWORD，一共写了4次。
 
-1. SSD往Host的CQ中返回状态：
+5. SSD往Host的CQ中返回状态：
 
 ![](vx_images/clip_image048.jpg)
 
 SSD是通过Memory write TLP 把16个字节的命令完成状态信息写入到Host的CQ中。
 
-1. SSD采用中断的方式告诉Host去处理CQ：
+6. SSD采用中断的方式告诉Host去处理CQ：
 
 ![](vx_images/clip_image050.jpg)
 
 上图使用的是MSI-X中断方式。这种方式将中断信息和正常的数据信息一样，PCIe打包把中断信息告知Host。SSD还是通过Memory Write TLP把中断信息告知Host，这个中断信息长度是1DWORD。
 
-1. Host处理相应的CQ
+7. Host处理相应的CQ
 
-2. Host处理完相应的CQ后，需要更新SSD端的CQ Head DB告知SSD处理
+8. Host处理完相应的CQ后，需要更新SSD端的CQ Head DB告知SSD处理
 
 完成：
 

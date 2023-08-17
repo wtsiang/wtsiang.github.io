@@ -55,6 +55,7 @@
         * [Design_Compiler总结.md                     ](学习/软件技巧/Design_Compiler总结.md)  
         * [EMU.md                                     ](学习/软件技巧/EMU.md)
         * [Formality.md                               ](学习/软件技巧/Formality.md)
+        * [Git.md](学习/软件技巧/Git.md)
         * [spyglass/cdc检查.md                        ](学习/软件技巧/spyglass/cdc检查.md)
         * [Tmux.md                                    ](学习/软件技巧/Tmux.md)
         * Vcs+Verdi仿真教程

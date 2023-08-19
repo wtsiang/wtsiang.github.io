@@ -50,4 +50,24 @@ pacman -U http://国内镜像网站/msys2/mingw/x86_64/mingw-w64-x86_64-verilato
 | SCALA_HOME | C:\SpinalHDL\scala                                                                                                                                                                                                                              |
 | MSYS_HOME  | C:\SpinalHDL\msys64                                                                                                                                                                                                                             |
 | Path       | C:\Program Files\Common Files\Oracle\Java\javapath;<br>%SBT_HOME%\sbt\bin;<br>%SCALA_HOME%\bin;<br>%MSYS_HOME%\usr\bin;<br>%MSYS_HOME%\mingw64\bin;<br>%JAVA_HOME%\bin;<br>%JAVA_HOME%\jre\bin;<br>%SBT_HOME%\bin;<br>C:\SpinalHDL\gtkwave\bin; |
+
 ---
+
+# 省事流程
+自己装软件折腾几遍都有问题，浪费时间，浪费激情；折腾环境太麻烦，还是直接使用前辈大佬打包的docker镜像吧。
+Docker是什么？也还是要学习一下。
+[Windows Docker安装教程](https://www.runoob.com/docker/windows-docker-install.html?renqun_youhua=154522)
+简单学习Docker之后再跟着大佬安装配置镜像。
+[避免环境折腾，可选Docker](https://mp.weixin.qq.com/s?__biz=Mzg5NjQyMzQwMQ==&mid=2247491294&idx=1&sn=f7bcd2eca182e24518179a22f0d9de48&chksm=c0001a58f777934e9d470aa316f9c15cc42366aeab6a6ec222a392ae48ecf56854e33eeb16fc&scene=21#wechat_redirect)
+
+下面是一些运行相关的配置信息，主要是Bind mounts需要根据实际情况填写：（host 和 container 端的路径均为绝对路径）
+D:\WanTsiang\yixin\testcode\scala\SpinalTemplateSbt-master
+/myproj/SpinalTemplateSbt
+
+D:\WanTsiang\yixin\testcode\scala\SpinalTemplateSbt-master\coursie
+/root/.cache/coursier
+
+![](vx_images/106021217230860.png =800x)
+
+![](vx_images/173061317249286.png =800x)
+

@@ -30,9 +30,9 @@ PrimeTime PX支持两种功耗分析模式：averaged mode和time-based mode。
 
 ```Tcl
 vcd2saif:
-vcd2saif-idump.vcd-ovcd2saif.saif
+vcd2saif   dump.vcd -o  vcd2saif.saif
 fsdb2saif:
-fsdb2saifdump.fsdb-ofsdb2saif.saif
+fsdb2saif dump.fsdb -o fsdb2saif.saif
 ```
 
 如果没有上述文件，那可以使用user-define switching activity commands，来提供一个现实的activity去精确power结果。
@@ -50,15 +50,15 @@ fsdb2saifdump.fsdb-ofsdb2saif.saif
 **Step1: 设置功耗分析模式**
 
 ```Tcl
-setpower_enable_analysis TRUE
-setpower_analysis_mode averaged
+set power_enable_analysis TRUE
+set power_analysis_mode averaged
 ```
 
 **Step2: read设计，对网表工艺库link**
 
 ```Tcl
-setsearch_path "../src/hdl/gate../src/lib/snps."
-setlink_library "*core_typ.db"
+set search_path "../src/hdl/gate../src/lib/snps."
+set link_library "*core_typ.db"
 read_verilog mac.vg
 current_design mac
 link
@@ -129,14 +129,14 @@ report_power
 附Averaged Power Analysis Mode Script脚本：
 
 ```Tcl
-setpower_enable_analysis TRUE
-setpower_analysis_mode averaged
+set power_enable_analysis TRUE
+set power_analysis_mode averaged
 
 #####################################################################
 #link design
 #####################################################################
-setsearch_path "../src/hdl/gate../src/lib/snps ."
-setlink_library "*core_typ.db"
+set search_path "../src/hdl/gate../src/lib/snps ."
+set link_library "*core_typ.db"
 
 read_verilog mac.vg
 current_design mac

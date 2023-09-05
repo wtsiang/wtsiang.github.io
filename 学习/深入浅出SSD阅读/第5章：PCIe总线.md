@@ -87,3 +87,7 @@
 **MPS（Maximum Payload Size）**
 
 PCIe协议允许最大Payload为4KB，整个链路中MPS遵守短板效应。
+
+
+# PCIe带宽
+![PCIe带宽](vx_images/171831720240789.png)

@@ -1,5 +1,7 @@
 # [ebook](../../ebook)
 - [规范](../../ebook/规范)
+    - [UPF3.0-1801-2015.pdf](../../eBook/规范/UPF3.0-1801-2015.pdf)
+    - [UPF3.1-1801-2018.pdf](../../eBook/规范/UPF3.1-1801-2018.pdf)
     - [AMBA总线规范_中文版_V2.0.pdf](                   ../../eBook/规范/AMBA总线规范_中文版_V2.0.pdf)
     - [IEEE Standard Verilog HDL 1364-2001.pdf](        ../../eBook/规范/IEEE%20Standard%20Verilog%20HDL%201364-2001.pdf)
     - [IEEE Standard Verilog HDL 1364-2005.pdf](        ../../eBook/规范/IEEE%20Standard%20Verilog%20HDL%201364-2005.pdf)

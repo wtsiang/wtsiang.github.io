@@ -52,6 +52,7 @@
     * 讲座
         * [AES案例设计分析-曲英杰.md](学习/讲座/AES案例设计分析-曲英杰.md)
     * 软件技巧
+        * [Conformal_LEC.md](学习/软件技巧/Conformal_LEC.md)
         * [Design_Compiler总结.md                     ](学习/软件技巧/Design_Compiler总结.md)  
         * [EMU.md                                     ](学习/软件技巧/EMU.md)
         * [Formality.md                               ](学习/软件技巧/Formality.md)
@@ -62,3 +63,5 @@
             * [1.1_VCS+Verdi仿真教程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.1_VCS+Verdi仿真教程.md)
             * [1.2_VCS+Verdi环境搭建.md](学习/软件技巧/Vcs+Verdi仿真教程/1.2_VCS+Verdi环境搭建.md)
             * [1.3_VCS+Verdi仿真流程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.3_VCS+Verdi仿真流程.md)
+            
+  * [SSD基础知识.md](学习/SSD基础知识.md)

@@ -7,9 +7,8 @@
 
 数字逻辑综合工具：
 
-*   Cadence:Genus
-*   Synopsis: design
-*   Compiler (DC)
+*   Cadence: Genus
+*   Synopsis: design Compiler (DC)
 
 数字后端设计工具：
 

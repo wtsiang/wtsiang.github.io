@@ -74,8 +74,11 @@ LEC完成后会生成多个报告：
 
 # 脚本
 hierarchical comparision flow 脚本如下：
+` lec -do smartlec_hier_compare.tcl -SL4 -nogui`
 
 ``` tcl
+# Filename: smartlec_hier_compare.tcl
+# Default: vpxmode
 set log file lec.flat.log.SLEC VERSION
 -replace
 usage -auto -elapse

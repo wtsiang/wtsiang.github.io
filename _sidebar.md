@@ -7,6 +7,7 @@
       * [nvme_ssd_fans.md](学习/NVMe/nvme_ssd_fans.md)
       * [nvme基础知识.md](学习/NVMe/nvme基础知识.md)
     * Spinal 
+        *  [SpinalHDL学习.md](学习/Spinal/SpinalHDL学习.md)
         *  [SpinalHDL开发环境搭建.md](学习/Spinal/SpinalHDL开发环境搭建.md)
     * 密码算法
         * [CRC校验.md](学习/密码算法/CRC校验.md)

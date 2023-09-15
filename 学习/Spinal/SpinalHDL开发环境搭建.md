@@ -18,6 +18,7 @@ Scala建议采用<mark>2.11.12</mark>版本（尝试过其他版本，但使用S
   
 ### Sbt安装
 sbt从[sbt官网](https://www.scala-sbt.org/)进行下载。配置使用sbt国内镜像。 在个人用户目录下新建`.sbt`文件夹，在文件夹内创建`repositories`文件，用来配置sbt国内镜像库，默认支持`https`协议，如果是`http`协议需要在仓库链接后加`allowInsecureProtocol`命令即可。
+参考：[sbt配置国内源](https://blog.csdn.net/a772304419/article/details/111053781)
 ``` shell
 #添加国内镜像
 [repositories]
@@ -53,8 +54,28 @@ pacman -U http://国内镜像网站/msys2/mingw/x86_64/mingw-w64-x86_64-verilato
 
 ---
 
+### Intel IDEA安装
+IDEA采用Community版即可，从官网下载，step by step。安装完成后需安装Scala插件。莫名其妙的又把环境调通了，用docker容器编译莫名的慢，每次几十秒，还是直接本地编译快，几秒就好，参考如下：
+[SpinalHDL——环境搭建](https://mp.weixin.qq.com/s?__biz=Mzg5NjQyMzQwMQ==&mid=2247483663&idx=1&sn=6d25ce6e4b97e3b5418eb08ddf1b7145&chksm=c0000589f7778c9fc3f1ee7324cdfe3b048753ba635f96416aece49a778a3ecb9d3a9998f84e&scene=21#wechat_redirect)
+
+
+### 仿真环境的坑
+
+运行 SpinalTemplateSbt 的 MyTopLevelSim 用 Iverilog 仿真时，Iverilog 可以正常编译，但编译结束后会报<mark>Error</mark>
+![](vx_images/317504815230956.png)
+<mark>from SharedMemIface.cpp:1:SharedStruct.hpp:2:9: fatal error: No such file or directory #include<boost/interprocess/managed_shared_memory.hpp> </mark>
+
+折腾一圈认为是电脑缺少 Boost 库的原因，折腾一圈各种尝试，最终发现按照如下方式将 boost 库添加到 MinGw 中则不再报错。
+
+[mingw编译器下boost库的安装](https://www.cnblogs.com/Fight-go/p/15812452.html)
+
+![](vx_images/592125815249382.png)
+
+
+
+
 # 省事流程
-自己装软件折腾几遍都有问题，浪费时间，浪费激情；折腾环境太麻烦，还是直接使用前辈大佬打包的docker镜像吧。
+自己装软件折腾几遍都有问题，浪费时间，浪费激情；折腾环境太麻烦（<mark>突然又通了，参见**Intel IDEA安装**</mark>），还是直接使用前辈大佬打包的docker镜像吧。
 ## Docker是什么？
 Docker是什么？也还是要学习一下。
 [Windows Docker安装教程](https://www.runoob.com/docker/windows-docker-install.html?renqun_youhua=154522)

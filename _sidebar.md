@@ -66,3 +66,4 @@
             * [1.3_VCS+Verdi仿真流程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.3_VCS+Verdi仿真流程.md)
             
   * [SSD基础知识.md](学习/SSD基础知识.md)
+  * [Memory.md](学习/Memory.md)

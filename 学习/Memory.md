@@ -71,6 +71,12 @@ Memory端口类型也有很大的区别，通常分为单口和双口。
 
 一般的Memory Compiler提供五个ram脚本（rf_sp, sram_sp, rf_tp, sram_dp, rom）。这意味着可以生成1 Port Register file、Single Port SRAM、2 Port Register file、Dual Port SRAM以及ROM。不同的厂商或许还拥有特殊工艺。通常，MC只生成常用的memory，特殊的往往需要定制或者组合。
 
+MC GUI: integrator, 需要一些环境，及license，目前只能在hfrd18使用。
+![](vx_images/146920914257423.png)
+
+Memory生成用的库：
+![](vx_images/92861714250092.png)
+
 
 # Synopsys Memory
 
@@ -91,21 +97,51 @@ Time：00:39 - end
 流程：
 
 1. 根据需求在脚本中填入相应参数；
+    Memory生成环境路径：
+    ![](vx_images/130834910237257.png)
+
+    * write_mask：三星N8表示一个bit控制多少bit;
+    * ecc_disable = 1 : 不生成 ecc_mem;
+    * necc_mux = * : 需要与前面的mux相同；
+    * necc_cd = 1：mem里面的控制逻辑放在中间，还是两边；
+    * necc_bk = 1：mem内的bank个数，目前写1；
+    * gen_lp_sig=1：生成低功耗的控制；
+    * redundancy_en=1：针对Memory Repair多生成一些备用；
+    * necc_lvt=low：表示docode电路采用那种工艺实现；
+    * vendor=snps：表示采用哪家的Memory；
+    * track=nt：表示几t的线宽；
+    
+
 2. make mem_gen 生成相应的Memory，包含前端仿真模型 及 后端需要的lib GDS等；
     * 可在Memory目录内查看datasheet，一般看最差的ss40, 可看到Area等信息;
-    * 如何看一个Memory能跑多快？
-    * 如何验证生成的Memory？
+        ![](vx_images/545485516257421.png)
+
+    * 如何看一个Memory能跑多快？ Tcycle > Tco + Tnet + Tsetup;  
+    * 如何验证生成的Memory？ 像地址内写入递增的数据后，读出进行校验；
+     ![](vx_images/59503210230964.png)
     
-     ![](vx_images/545485516257421.png)
+
      
 3. common_ram 集成
     * copy 生成的 Memory 到公共库asic_mem；
     * 将新生成的Memory加到相应的emu\model\pwr filelist(FE)；
     * 将新生成的Memory进行db\lib\memory link(BE)；
+
+    直接集成
+![](vx_images/190232211257422.png =846x)
+    直接集成（预编译接口定义）
+    ![](vx_images/40812011237256.png =846x)
+    模版化拆分集成（深度拆分\宽度拆分），需要手动操作？
+    ![](vx_images/63861011249389.png =846x)
     
 4. 脚本化执行
      * 自动执行makefile
      
+     
+
+# Memory Repair
+
+# Memory SDC
 
 参考文献：
 [记忆深处有尘埃——Memory Compiler](https://blog.csdn.net/Tao_ZT/article/details/102456813)

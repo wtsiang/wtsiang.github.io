@@ -94,11 +94,13 @@ Bank：影响Memory面积、速度
 Time：00:39 - end
 \\\cdfile\Departments\DD\chenyang.wang\Memory_Training\STAR2000_Memory_Flow_2.mp4
 
+ Memory生成环境路径：
+    ![](vx_images/130834910237257.png)
+
 流程：
 
 1. 根据需求在脚本中填入相应参数；
-    Memory生成环境路径：
-    ![](vx_images/130834910237257.png)
+   
 
     * write_mask：三星N8表示一个bit控制多少bit;
     * ecc_disable = 1 : 不生成 ecc_mem;
@@ -110,6 +112,8 @@ Time：00:39 - end
     * necc_lvt=low：表示docode电路采用那种工艺实现；
     * vendor=snps：表示采用哪家的Memory；
     * track=nt：表示几t的线宽；
+    * segm_man_size=80: 超过要分两块；
+    * ecc_min_dist=2: ecc校正的连续几个不会出错；
     
 
 2. make mem_gen 生成相应的Memory，包含前端仿真模型 及 后端需要的lib GDS等；
@@ -126,6 +130,11 @@ Time：00:39 - end
     * copy 生成的 Memory 到公共库asic_mem；
     * 将新生成的Memory加到相应的emu\model\pwr filelist(FE)；
     * 将新生成的Memory进行db\lib\memory link(BE)；
+  
+    脚本集成    
+    需求深度，位宽 ，mask，拆分深度1，拆分深度2，拆分宽度1，拆分宽度2
+![](vx_images/351252911230967.png)
+![](vx_images/554131910230969.png)
 
     直接集成
 ![](vx_images/190232211257422.png =846x)
@@ -138,6 +147,9 @@ Time：00:39 - end
      * 自动执行makefile
      
      
+# Memory release
+![](vx_images/291532810249395.png)
+
 
 # Memory Repair
 

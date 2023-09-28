@@ -3,6 +3,8 @@
 * [首页](README.md)
 
 * 学习
+    * Memory
+        * [Memory基础.md](学习/Memory/Memory基础.md)
     * NVMe
       * [nvme_ssd_fans.md](学习/NVMe/nvme_ssd_fans.md)
       * [nvme基础知识.md](学习/NVMe/nvme基础知识.md)
@@ -66,4 +68,3 @@
             * [1.3_VCS+Verdi仿真流程.md](学习/软件技巧/Vcs+Verdi仿真教程/1.3_VCS+Verdi仿真流程.md)
             
   * [SSD基础知识.md](学习/SSD基础知识.md)
-  * [Memory.md](学习/Memory.md)

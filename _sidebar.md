@@ -33,6 +33,7 @@
             * [数字IC（SoC）低功耗设计方法总结.md     ](学习/数字IC设计/数字前端/数字IC（SoC）低功耗设计方法总结.md)
         * 数字后端
             * [DFT介绍.md                             ](学习/数字IC设计/数字后端/DFT介绍.md)
+            * [ECO流程.md](学习/数字IC设计/数字后端/ECO流程.md)
             * [IR_Drop.md                             ](学习/数字IC设计/数字后端/IR_Drop.md)
             * [PTPX功耗分析_Average_Power_Analysis.md ](学习/数字IC设计/数字后端/PTPX功耗分析_Average_Power_Analysis.md)
             * [PTPX功耗分析_nWave查看功耗波形图.md    ](学习/数字IC设计/数字后端/PTPX功耗分析_nWave查看功耗波形图.md)

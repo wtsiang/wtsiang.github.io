@@ -38,3 +38,9 @@ repair memory 后台访问的task生成脚本呢
 
 
 ![](vx_images/178785711242405.png)
+
+
+对比timing
+![](vx_images/434133116237262.png)
+
+![](vx_images/594793116257428.png)

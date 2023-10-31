@@ -39,6 +39,7 @@
             * [PTPX功耗分析_nWave查看功耗波形图.md    ](学习/数字IC设计/数字后端/PTPX功耗分析_nWave查看功耗波形图.md)
             * [PTPX功耗分析_Peak_Power_Analysis.md    ](学习/数字IC设计/数字后端/PTPX功耗分析_Peak_Power_Analysis.md)
             * [PTPX功耗分析-脚本.md](学习/数字IC设计/数字后端/PTPX功耗分析-脚本.md)
+            * [后端知识点.md](学习/数字IC设计/数字后端/后端知识点.md)
             * [工艺角.md                              ](学习/数字IC设计/数字后端/工艺角.md)
     * 深入浅出SSD阅读
         * [第1章：综述.md             ](学习/深入浅出SSD阅读/第1章：综述.md)

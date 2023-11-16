@@ -198,3 +198,8 @@ quit
 **FSDB:** Fast Signal DataBbase  
 
 *   类似于VCD的波形文件，去除了VCD中的冗余信息，数据量小很多，提高了仿真的速度，Synopsys的仿真工具支持较多。
+
+
+# 参考文献
+
+* [PTPX-功耗分析总结](https://www.04ip.com/post/74086.html)

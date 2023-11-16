@@ -34,13 +34,11 @@
         * 数字后端
             * [DFT介绍.md                             ](学习/数字IC设计/数字后端/DFT介绍.md)
             * [ECO流程.md](学习/数字IC设计/数字后端/ECO流程.md)
-            * [IR_Drop.md                             ](学习/数字IC设计/数字后端/IR_Drop.md)
             * [PTPX功耗分析_Average_Power_Analysis.md ](学习/数字IC设计/数字后端/PTPX功耗分析_Average_Power_Analysis.md)
             * [PTPX功耗分析_nWave查看功耗波形图.md    ](学习/数字IC设计/数字后端/PTPX功耗分析_nWave查看功耗波形图.md)
             * [PTPX功耗分析_Peak_Power_Analysis.md    ](学习/数字IC设计/数字后端/PTPX功耗分析_Peak_Power_Analysis.md)
             * [PTPX功耗分析-脚本.md](学习/数字IC设计/数字后端/PTPX功耗分析-脚本.md)
             * [后端知识点.md](学习/数字IC设计/数字后端/后端知识点.md)
-            * [工艺角.md                              ](学习/数字IC设计/数字后端/工艺角.md)
     * 深入浅出SSD阅读
         * [第1章：综述.md             ](学习/深入浅出SSD阅读/第1章：综述.md)
         * [第2章：主控和全闪存.md     ](学习/深入浅出SSD阅读/第2章：主控和全闪存.md)

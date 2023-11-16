@@ -1,5 +1,11 @@
 # Memory仿真
 
+## 仿真报warning的Memory：
+![](vx_images/572073413231142.png)
+
+![](vx_images/496702814257601.png)
+
+
 DI要求留120ps余量
 ![](vx_images/367621115257887.png)
 

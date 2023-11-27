@@ -33,6 +33,8 @@
 * code.hex --> star1500e.hex
 * 波形备份，需要将xwave_debug.fsdb.fsdbdir和xwave_debug.fsdb.vf拷走；
  ![](vx_images/526944214231154.png)
+* run.do 的最后一个run分支，可以实现最小快照前的波形dump；
+![](vx_images/401080114231162.png)
 
 # Makefile参数
 ## 全波形
@@ -50,16 +52,11 @@
 
 
 * 第二次 fio 128k seq write 100M性能结果；
-92728us - 102684us
 
-![](vx_images/590472619258075.png)
 
 * 第一次 fio 128k seq read 100M性能结果；
-106237us - 118445us
 
- ![](vx_images/546133819255577.png)
 
 * 第二次 fio 128k seq read 100M性能结果；
 
-
-![](vx_images/307845819236818.png)
+![](vx_images/361080816231161.png)

@@ -48,15 +48,14 @@
 
 # fio
 
-* 第一次 fio 128k seq write 100M性能结果；
+* 第2次 fio 128k seq write 100M性能结果；
 
 
-* 第二次 fio 128k seq write 100M性能结果；
+* 第3次 fio 128k seq write 100M性能结果；
 
 
-* 第一次 fio 128k seq read 100M性能结果；
+* 第1次 fio 128k seq read 100M性能结果；
 
 
-* 第二次 fio 128k seq read 100M性能结果；
+* 第2次 fio 128k seq read 100M性能结果；
 
-![](vx_images/361080816231161.png)

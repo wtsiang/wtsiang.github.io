@@ -112,7 +112,7 @@ Time：00:39 - end
     * necc_lvt=low：表示docode电路采用那种工艺实现；
     * vendor=snps：表示采用哪家的Memory；
     * track=nt：表示几t的线宽；
-    * segm_man_size=80: 超过要分两块；
+    * segm_max_size=80: 超过要分两块；
     * ecc_min_dist=2: ecc校正的连续几个不会出错；
     
 

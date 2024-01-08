@@ -51,6 +51,10 @@ source gen_mem_all_flow.sh
     14. freq check。
 
 
+# 检查后端lib等
+1.filelist
+2.backend
+
 
 #	仿真
 

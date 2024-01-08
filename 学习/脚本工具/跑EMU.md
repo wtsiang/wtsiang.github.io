@@ -18,6 +18,8 @@
 * make wave；到hfemu7/8转波形;
 * make fsdb；
 
+* 跑GC： seq write 1GB；串口敲 gc_all 启动要半小时；然后再跑几个小时；
+
 # 其他命令、知识点
 * cp database 要加 -rf;
 * emu终端log在 veloce.log/velrun.transcript;

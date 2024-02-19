@@ -57,6 +57,7 @@
     * 软件技巧
         * [Conformal_LEC.md](学习/软件技巧/Conformal_LEC.md)
         * [Design_Compiler总结.md                     ](学习/软件技巧/Design_Compiler总结.md)  
+        * [Emacs.md](file:///D:/WanTsiang/wtsiang_note/学习/软件技巧/Emacs.md)
         * [EMU.md                                     ](学习/软件技巧/EMU.md)
         * [Formality.md                               ](学习/软件技巧/Formality.md)
         * [Git.md](学习/软件技巧/Git.md)

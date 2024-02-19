@@ -58,8 +58,7 @@ source gen_mem_all_flow.sh
 
 #	仿真
 
-timing 余量
-![](vx_images/193632111230968.png)
+timing 余量（旧）
 
 ![](vx_images/94590916231165.png)
 

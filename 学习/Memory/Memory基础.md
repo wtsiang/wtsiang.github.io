@@ -155,6 +155,11 @@ Time：00:39 - end
 
 # Memory SDC
 
+# Memory ECC
+- [ECC加密校验模块原理及实现](https://zhuanlan.zhihu.com/p/681177781)
+- [ECC-汉明码详解](https://blog.csdn.net/qq_37708525/article/details/128735265)
+- [汉明码原理及实现](https://www.cnblogs.com/Philip-Tell-Truth/p/6669854.html)
+
 参考文献：
 [记忆深处有尘埃——Memory Compiler](https://blog.csdn.net/Tao_ZT/article/details/102456813)
 [科普Register file和SRAM](https://www.elecfans.com/d/2048028.html)

@@ -4,7 +4,7 @@
 >
 > 
 
-<img src="D:\Wtsiang\workfile\头像.png" alt="avatar">
+<img src=".\1.jpg" alt="avatar">
 
 ## 教育背景
 

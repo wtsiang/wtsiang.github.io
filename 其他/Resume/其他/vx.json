@@ -1,0 +1,41 @@
+{
+    "created_time": "2023-08-02T12:20:28Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:31:54Z",
+            "id": "189",
+            "modified_time": "2023-08-02T12:31:54Z",
+            "name": "范旭杰简历.pdf",
+            "signature": "31681369754810",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:31:54Z",
+            "id": "190",
+            "modified_time": "2023-08-02T12:31:54Z",
+            "name": "陈华简历.pdf",
+            "signature": "59834880380090",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2023-08-02T12:31:54Z",
+            "id": "191",
+            "modified_time": "2023-08-02T12:31:54Z",
+            "name": "马大姐简历.pdf",
+            "signature": "112993690602682",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+    ],
+    "id": "113",
+    "modified_time": "2023-08-02T12:20:28Z",
+    "signature": "99992824597004",
+    "version": 3
+}

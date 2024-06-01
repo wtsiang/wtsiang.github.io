@@ -27,7 +27,7 @@ def generate_markdown_toc(root_dir, prefix_to_remove, toc_list=None, level=0):
         # print(f"path:{path}")
         if os.path.isdir(path):
             # 如果是目录，则递归调用，并增加缩进级别
-            toc_list.append(f"{indent}- {filename}\n")
+            toc_list.append(f"{indent}- **{filename}**\n")
             generate_markdown_toc(path, prefix_to_remove, toc_list, level + 1)
         else:
             # 如果是文件，则添加到列表中

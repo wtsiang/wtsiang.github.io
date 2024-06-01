@@ -85,7 +85,7 @@
             "attachment_folder": "",
             "created_time": "2024-05-02T09:26:00Z",
             "id": "241",
-            "modified_time": "2024-06-01T08:01:10Z",
+            "modified_time": "2024-06-01T08:33:11Z",
             "name": "mulu.py",
             "signature": "177808301096",
             "tags": [
@@ -105,9 +105,6 @@
     "folders": [
         {
             "name": "学习"
-        },
-        {
-            "name": "其他"
         },
         {
             "name": "生活"

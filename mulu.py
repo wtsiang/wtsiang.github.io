@@ -16,7 +16,7 @@ def generate_markdown_toc(root_dir, prefix_to_remove, toc_list=None, level=0):
     
     indent = '  ' * level  # 缩进
     # 去掉不需要列出的目录和文件
-    exclude_dir  = [".git","vx_attachments","vx_images","vx_recycle_bin","vx_notebook","其他","生活"]
+    exclude_dir  = [".git","vx_attachments","vx_images","vx_recycle_bin","vx_notebook","生活"]
     exclude_file = ["vx.json",".nojekyll","index.html","log.png","mulu.py","README.md","_coverpage.md","_navbar.md","_sidebar.md"] 
 
     for filename in os.listdir(root_dir):

@@ -35,23 +35,21 @@ Top上的cell没有设置releate power，导致clp自己推断了一个，与实
 ![](vx_images/129971420264980.png =1000x)
 
 
-
-
-
 # 0527~0531
 ##  需要补充一下trng (osc_clk osc_data)x8,  osc_cell_block x3
  ![](vx_images/321380714240569.png =1003x)
 
 
 ## analog 和 digital连接问题
-* [x]Efuse Pin  VDD18 VQPS多supply set驱动SS_VDD，SS_VDD_CHIP；这个不管，后面没有efuse了；
+* Efuse Pin  VDD18 VQPS多supply set驱动SS_VDD，SS_VDD_CHIP；这个不管，后面没有efuse了；
 * digital port直接练到了 analog port上；就是这么连得，可以找rock确认；
-* [x]IO port AY500(1.65)连到了vts analog port(1.62)上；lib的问题，不用管；
+* IO port AY500(1.65)连到了vts analog port(1.62)上；lib的问题，不用管；
 ![](vx_images/399631914258995.png =1118x)
 
 
 ## 为什么要过pin_mux，两个on之间插了一个off的buffer；
 ![](vx_images/289672320246221.png =1000x)
+![](vx_images/541070915246937.png =1045x)
 
 ## floating input需要设置related local power
 有两种，1种只有nvme nfi，另一种包含eda dielink osc等；
@@ -62,6 +60,12 @@ Top上的cell没有设置releate power，导致clp自己推断了一个，与实
 需要看tie的值是否是设计写的，能否直接连接aon tie不插iso；
 ![](vx_images/496645816267024.png)
 ![](vx_images/248575814267028.png =1028x)
+
+PLL的是设计tie 0的；
+![](vx_images/251171111240644.png)
+
+![](vx_images/232375814259070.png =1036x)
+
 
 ## floating得 可能需要加noiso
 ![](vx_images/112152610240570.png =1084x)

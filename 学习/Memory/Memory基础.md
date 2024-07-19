@@ -90,18 +90,17 @@ Bank：影响Memory面积、速度
 
 # Memory生成
 
+1. Integrator GUI生成；
+2. ISH 脚本生成；
+
 \\\cdfile\Departments\DD\chenyang.wang\Memory_Training\STAR2000_Memory_Flow_1.mp4
 Time：00:39 - end
 \\\cdfile\Departments\DD\chenyang.wang\Memory_Training\STAR2000_Memory_Flow_2.mp4
 
- Memory生成环境路径：
-    ![](vx_images/130834910237257.png)
-
 流程：
 
 1. 根据需求在脚本中填入相应参数；
-   
-
+  
     * write_mask：三星N8表示一个bit控制多少bit;
     * ecc_disable = 1 : 不生成 ecc_mem;
     * necc_mux = * : 需要与前面的mux相同；
@@ -124,10 +123,8 @@ Time：00:39 - end
     * 如何验证生成的Memory？ 像地址内写入递增的数据后，读出进行校验；
      ![](vx_images/59503210230964.png)
     
-
-     
 3. common_ram 集成
-    * copy 生成的 Memory 到公共库asic_mem；
+    * copy 生成的 Memory 到公共库asic_mem；执行：`source gen_mem_all_flow.sh  normal mem`
     * 将新生成的Memory加到相应的emu\model\pwr filelist(FE)；
     * 将新生成的Memory进行db\lib\memory link(BE)；
   
@@ -136,22 +133,39 @@ Time：00:39 - end
 ![](vx_images/351252911230967.png)
 ![](vx_images/554131910230969.png)
 
-    直接集成
-![](vx_images/190232211257422.png =846x)
-    直接集成（预编译接口定义）
-    ![](vx_images/40812011237256.png =846x)
-    模版化拆分集成（深度拆分\宽度拆分），需要手动操作？
-    ![](vx_images/63861011249389.png =846x)
-    
-4. 脚本化执行
-     * 自动执行makefile
-     
+4. 更新Backdoor 目录；
+
+      个别Memory有Backdoor访问需求，当相关Memory更新了，需要更新对应的Backdoor目录文件，并在release时通知到相关DV；
+
+  
+# Memory仿真
+
      
 # Memory release
+
+
+
+
 ![](vx_images/291532810249395.png)
 
 
-# Memory Repair
+source gen_mem_all_flow.sh
+>  gen_mem_all_flow.sh 结构如下
+    1. 生成db。(1500不用)
+    2. 前仿model插入mem init。
+    3. 后仿model插入mem init。
+    4. 总结所有的filelist到/ux/lib/1500_mem。
+    5. 将生成的mem copy到/ux/lib/1500_mem。
+    6. 在/ux/lib创建1500_mem/filelist。
+    7. 合并filelist到1500_mem/filelist；删除filelist中重复的mem。
+    8. 将mem/fielist 转换为emu filelist。
+    9. 生成后仿的filelist。
+    10. 更新后端Memory/lib链接。
+    11. 检查 mem width 15-30之间的。
+    12. gen model cell filelist。
+    13. timing check。
+    14. freq check。
+    
 
 # Memory SDC
 

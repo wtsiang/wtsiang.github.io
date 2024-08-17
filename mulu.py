@@ -2,12 +2,12 @@
 import os
 
 # 指定要搜索的目录
-root_directory = "D:/Wtsiang/wtsiang.github.io"
-prefix_to_remove = root_directory+"/"
-# root_directory = "D:/WanTsiang/wtsiang_note/其他"
+root_directory = r"D:\Wtsiang\wtsiang.github.io"
+prefix_to_remove = root_directory+"\\"
+# root_directory = "D:\WanTsiang\wtsiang_note\其他"
 
 # 指定要生成目录的根目录
-path_mulu_md   = "D:/Wtsiang/wtsiang.github.io/_sidebar.md"
+path_mulu_md   = r"D:\Wtsiang\wtsiang.github.io\_sidebar.md"
 
 # 用python根据文件路径生成markdown 目录
 def generate_markdown_toc(root_dir, prefix_to_remove, toc_list=None, level=0):
@@ -24,7 +24,7 @@ def generate_markdown_toc(root_dir, prefix_to_remove, toc_list=None, level=0):
             continue
         # print(f"filename:{filename}")
         path = os.path.join(root_dir, filename)
-        print(f"path:{path}")
+        # print(f"path:{path}")
         if os.path.isdir(path):
             # 如果是目录，则递归调用，并增加缩进级别
             toc_list.append(f"{indent}- **{filename}**\n")
@@ -32,9 +32,9 @@ def generate_markdown_toc(root_dir, prefix_to_remove, toc_list=None, level=0):
         else:
             # 如果是文件，则添加到列表中
             
-            # print(prefix_to_remove)
+            print(prefix_to_remove)
             path = path.replace(prefix_to_remove,'')
-            # print(f"path:{path}")
+            print(f"path:{path}")
             toc_list.append(f"{indent}- [{filename}]({path})\n")
     
     return toc_list

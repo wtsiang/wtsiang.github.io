@@ -10,6 +10,7 @@
 * [Gitblit](http://www.gitblit.com/)
 * [docsify官网](https://docsify.js.org/#/zh-cn/)
 * [VNote - 一个舒适的笔记平台](https://docs.vnote.fun/zh/)  
+* [VNote - Gitee](https://gitee.com/vnotex/vnote)
 * [PixPin-截图工具](https://pixpinapp.com/)
 
 ## 教程

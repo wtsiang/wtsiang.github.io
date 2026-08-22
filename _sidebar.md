@@ -1,4 +1,3 @@
-- [clp_check.md](clp_check.md)
 - **学习**
   - [ebook.md](学习\ebook.md)
   - **Memory**
@@ -33,6 +32,7 @@
       - [前端设计中的一些知识点.md](学习\数字IC设计\数字前端\前端设计中的一些知识点.md)
       - [如何写出高覆盖率的Verilog代码？.md](学习\数字IC设计\数字前端\如何写出高覆盖率的Verilog代码？.md)
       - [数字IC（SoC）低功耗设计方法总结.md](学习\数字IC设计\数字前端\数字IC（SoC）低功耗设计方法总结.md)
+      - [clp_check.md](学习\数字IC设计\数字后端\clp_check.md)
     - **数字后端**
       - [DFT_scan_chain介绍.md](学习\数字IC设计\数字后端\DFT_scan_chain介绍.md)
       - [DFT介绍.md](学习\数字IC设计\数字后端\DFT介绍.md)
@@ -72,4 +72,4 @@
       - [1.2_VCS+Verdi环境搭建.md](学习\软件技巧\Vcs+Verdi仿真教程\1.2_VCS+Verdi环境搭建.md)
       - [1.3_VCS+Verdi仿真流程.md](学习\软件技巧\Vcs+Verdi仿真教程\1.3_VCS+Verdi仿真流程.md)
     - [一文读懂_LEC在IC设计中的重要性.mhtml](学习\软件技巧\一文读懂_LEC在IC设计中的重要性.mhtml)
-- [日常工作.md](日常工作.md)
+
